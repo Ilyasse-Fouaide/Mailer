@@ -10,7 +10,7 @@ Open the [<ins>Account > Security</ins>](https://myaccount.google.com/security) 
 
 ![App](./assets/appPass.jpg)  
 
-when you click on **App passwords** section and sign in successfully, then create your app password and click `Create`
+when you click on **App passwords** section and sign in successfully, then create your app password.
 
 ![App](./assets/create.jpg)
 
