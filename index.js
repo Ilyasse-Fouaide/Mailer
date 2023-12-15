@@ -3,7 +3,9 @@ const express = require('express');
 const app = express();
 const config = require("./config")
 
+// parse application/x-www-form-urlencoded
 app.use(express.urlencoded({ extended: true }));
+// parse application/json
 app.use(express.json());
 
 app.get('/', (req, res) => {
@@ -13,15 +15,17 @@ app.get('/', (req, res) => {
 app.post('/send', (req, res) => {
   const { email, message } = req.body;
 
+  // check if not email and message requests provided
   if (!email || !message) {
     return res.status(400).json({ message: "Please provide you info before you submit!." });
   }
 
+  // configure Nodemailer to send emails using your Gmail account
   const transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-      user: config.MAIL_USER,
-      pass: config.MAIL_PASS,
+      user: config.MAIL_USER,  // your email
+      pass: config.MAIL_PASS,  // your APP password
     },
   });
 
