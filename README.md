@@ -3,7 +3,8 @@
 `nodemailer` is a module for Node.js that makes it easy to send emails from your Node.js applications
 
 ### `Step 1: Gmail Setup`
-Open the [<ins>Account > Security</ins>](https://myaccount.google.com/security) page and scroll down to **Signing in to Google** section and make sure you enable `2-Step Verification`. Then you should see a new section called `‘App passwords’`. Click it.
+Open the [<ins>Account > Security</ins>](https://myaccount.google.com/security) page and scroll down to **Signing in to Google** section and make sure you enable   
+`2-Step Verification`. Then you should see a new section called `‘App passwords’`. Click it.
 
 **if you don't see App passwords section search it:**
 
