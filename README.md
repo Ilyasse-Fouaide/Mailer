@@ -41,6 +41,4 @@ npm run dev  ### the app running at http://localhost:5000
 
 5. test the end point: open `postman`:
 
-<p align="center">
-<img src="./assets//postman.jpg" />
-</p>
+![postman](./assets//postman.jpg)
